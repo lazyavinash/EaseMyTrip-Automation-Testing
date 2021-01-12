@@ -21,3 +21,4 @@ extentreports 3.1.5
 * JRE System Libraries (Java SE 1.8)
 
 
+Make changes to the web elements (xpath, id, name, etc) as might have changed with time. 
