@@ -1,11 +1,11 @@
 import com.easemytrip.runner.FlightSearchTest;
-import com.easemytrip.runner.HomePageRunner1;
+import com.easemytrip.runner.HomePageRunner;
 
 public class Demo {
 
 	public static void main(String[] args) {
 	
-		HomePageRunner1 hp=new HomePageRunner1();
+		HomePageRunner hp=new HomePageRunner();
 		FlightSearchTest ow=new FlightSearchTest();
 		
 	}
