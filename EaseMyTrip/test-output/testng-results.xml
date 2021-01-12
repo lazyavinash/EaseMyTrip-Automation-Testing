@@ -1,0 +1,1529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" ignored="0" total="119" passed="116">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="676522" started-at="2020-08-12T06:45:27Z" finished-at="2020-08-12T06:56:44Z">
+    <groups>
+    </groups>
+    <test name="LoginRegisterTest" duration-ms="374618" started-at="2020-08-12T06:45:27Z" finished-at="2020-08-12T06:51:42Z">
+      <class name="com.easemytrip.runner.LoginRegistrationTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.easemytrip.runner.LoginRegistrationTest@6ab7a896]" name="beforeTest" is-config="true" duration-ms="12783" started-at="2020-08-12T06:45:27Z" finished-at="2020-08-12T06:45:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="loginForgetPasswordTestValid(java.lang.String, java.lang.String)[pri:1, instance:com.easemytrip.runner.LoginRegistrationTest@6ab7a896]" name="loginForgetPasswordTestValid" duration-ms="35070" started-at="2020-08-12T06:45:41Z" description="Forgot Password Using valid Data" data-provider="dp" finished-at="2020-08-12T06:46:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aanandu9@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gladiataor]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginForgetPasswordTestValid -->
+        <test-method status="PASS" signature="loginForgetPasswordTestValid(java.lang.String, java.lang.String)[pri:1, instance:com.easemytrip.runner.LoginRegistrationTest@6ab7a896]" name="loginForgetPasswordTestValid" duration-ms="25591" started-at="2020-08-12T06:46:16Z" description="Forgot Password Using valid Data" data-provider="dp" finished-at="2020-08-12T06:46:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9434269883]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gladiator]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginForgetPasswordTestValid -->
+        <test-method status="PASS" signature="loginForgetPasswordTestInvalid(java.lang.String, java.lang.String)[pri:2, instance:com.easemytrip.runner.LoginRegistrationTest@6ab7a896]" name="loginForgetPasswordTestInvalid" duration-ms="13131" started-at="2020-08-12T06:46:42Z" description="Forgot Password Using Invalid Data" data-provider="invalidData" finished-at="2020-08-12T06:46:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gladiataor]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginForgetPasswordTestInvalid -->
+        <test-method status="PASS" signature="loginForgetPasswordTestInvalid(java.lang.String, java.lang.String)[pri:2, instance:com.easemytrip.runner.LoginRegistrationTest@6ab7a896]" name="loginForgetPasswordTestInvalid" duration-ms="12911" started-at="2020-08-12T06:46:56Z" description="Forgot Password Using Invalid Data" data-provider="invalidData" finished-at="2020-08-12T06:47:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1234.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gladiator]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginForgetPasswordTestInvalid -->
+        <test-method status="PASS" signature="loginForgetPasswordTestInvalid(java.lang.String, java.lang.String)[pri:2, instance:com.easemytrip.runner.LoginRegistrationTest@6ab7a896]" name="loginForgetPasswordTestInvalid" duration-ms="13191" started-at="2020-08-12T06:47:09Z" description="Forgot Password Using Invalid Data" data-provider="invalidData" finished-at="2020-08-12T06:47:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aanandu9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gladiator]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginForgetPasswordTestInvalid -->
+        <test-method status="PASS" signature="loginForgetPasswordTestInvalid(java.lang.String, java.lang.String)[pri:2, instance:com.easemytrip.runner.LoginRegistrationTest@6ab7a896]" name="loginForgetPasswordTestInvalid" duration-ms="12803" started-at="2020-08-12T06:47:23Z" description="Forgot Password Using Invalid Data" data-provider="invalidData" finished-at="2020-08-12T06:47:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aanandu9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginForgetPasswordTestInvalid -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:3, instance:com.easemytrip.runner.LoginRegistrationTest@6ab7a896]" name="loginTest" duration-ms="3436" started-at="2020-08-12T06:47:36Z" description="Login Test for Easemytrip using valid values" data-provider="dp" finished-at="2020-08-12T06:47:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aanandu9@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gladiataor]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:3, instance:com.easemytrip.runner.LoginRegistrationTest@6ab7a896]" name="loginTest" duration-ms="3096" started-at="2020-08-12T06:47:40Z" description="Login Test for Easemytrip using valid values" data-provider="dp" finished-at="2020-08-12T06:47:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9434269883]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gladiator]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="loginInvalidTest(java.lang.String, java.lang.String)[pri:4, instance:com.easemytrip.runner.LoginRegistrationTest@6ab7a896]" name="loginInvalidTest" duration-ms="7339" started-at="2020-08-12T06:47:44Z" description="Login Test for Easemytrip using Invalid values" data-provider="invalidData" finished-at="2020-08-12T06:47:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gladiataor]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInvalidTest -->
+        <test-method status="PASS" signature="loginInvalidTest(java.lang.String, java.lang.String)[pri:4, instance:com.easemytrip.runner.LoginRegistrationTest@6ab7a896]" name="loginInvalidTest" duration-ms="7507" started-at="2020-08-12T06:47:51Z" description="Login Test for Easemytrip using Invalid values" data-provider="invalidData" finished-at="2020-08-12T06:47:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1234.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gladiator]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInvalidTest -->
+        <test-method status="PASS" signature="loginInvalidTest(java.lang.String, java.lang.String)[pri:4, instance:com.easemytrip.runner.LoginRegistrationTest@6ab7a896]" name="loginInvalidTest" duration-ms="7459" started-at="2020-08-12T06:47:59Z" description="Login Test for Easemytrip using Invalid values" data-provider="invalidData" finished-at="2020-08-12T06:48:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aanandu9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gladiator]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInvalidTest -->
+        <test-method status="PASS" signature="loginInvalidTest(java.lang.String, java.lang.String)[pri:4, instance:com.easemytrip.runner.LoginRegistrationTest@6ab7a896]" name="loginInvalidTest" duration-ms="7329" started-at="2020-08-12T06:48:07Z" description="Login Test for Easemytrip using Invalid values" data-provider="invalidData" finished-at="2020-08-12T06:48:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aanandu9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInvalidTest -->
+        <test-method status="PASS" signature="OTPLoginTestValid(java.lang.String, java.lang.String)[pri:5, instance:com.easemytrip.runner.LoginRegistrationTest@6ab7a896]" name="OTPLoginTestValid" duration-ms="55956" started-at="2020-08-12T06:48:15Z" description="Login test using OTP using valid Email and Phone number" data-provider="dp" finished-at="2020-08-12T06:49:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aanandu9@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gladiataor]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OTPLoginTestValid -->
+        <test-method status="FAIL" signature="OTPLoginTestValid(java.lang.String, java.lang.String)[pri:5, instance:com.easemytrip.runner.LoginRegistrationTest@6ab7a896]" name="OTPLoginTestValid" duration-ms="17699" started-at="2020-08-12T06:49:11Z" description="Login test using OTP using valid Email and Phone number" data-provider="dp" finished-at="2020-08-12T06:49:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9434269883]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gladiator]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=84.0.4147.105)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DT1HFES', ip: '192.168.1.93', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\RAHULK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61223}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e49b2c10f7dd492b02744d337aec7a56]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=84.0.4147.105)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DT1HFES', ip: '192.168.1.93', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\RAHULK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61223}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e49b2c10f7dd492b02744d337aec7a56
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at com.easemytrip.pom.LoginTrial.loginTestOTP(LoginTrial.java:102)
+at com.easemytrip.runner.LoginRegistrationTest.OTPLoginTestValid(LoginRegistrationTest.java:112)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OTPLoginTestValid -->
+        <test-method status="PASS" signature="OTPLoginTestInvalid(java.lang.String, java.lang.String)[pri:6, instance:com.easemytrip.runner.LoginRegistrationTest@6ab7a896]" name="OTPLoginTestInvalid" duration-ms="7578" started-at="2020-08-12T06:49:29Z" description="Login test using OTP using incorrect values" data-provider="invalidData" finished-at="2020-08-12T06:49:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gladiataor]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OTPLoginTestInvalid -->
+        <test-method status="PASS" signature="OTPLoginTestInvalid(java.lang.String, java.lang.String)[pri:6, instance:com.easemytrip.runner.LoginRegistrationTest@6ab7a896]" name="OTPLoginTestInvalid" duration-ms="7577" started-at="2020-08-12T06:49:37Z" description="Login test using OTP using incorrect values" data-provider="invalidData" finished-at="2020-08-12T06:49:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1234.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gladiator]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OTPLoginTestInvalid -->
+        <test-method status="PASS" signature="OTPLoginTestInvalid(java.lang.String, java.lang.String)[pri:6, instance:com.easemytrip.runner.LoginRegistrationTest@6ab7a896]" name="OTPLoginTestInvalid" duration-ms="7552" started-at="2020-08-12T06:49:45Z" description="Login test using OTP using incorrect values" data-provider="invalidData" finished-at="2020-08-12T06:49:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aanandu9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gladiator]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OTPLoginTestInvalid -->
+        <test-method status="PASS" signature="OTPLoginTestInvalid(java.lang.String, java.lang.String)[pri:6, instance:com.easemytrip.runner.LoginRegistrationTest@6ab7a896]" name="OTPLoginTestInvalid" duration-ms="7638" started-at="2020-08-12T06:49:53Z" description="Login test using OTP using incorrect values" data-provider="invalidData" finished-at="2020-08-12T06:50:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aanandu9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OTPLoginTestInvalid -->
+        <test-method status="PASS" signature="registerTestValid(java.lang.String, java.lang.String)[pri:7, instance:com.easemytrip.runner.LoginRegistrationTest@6ab7a896]" name="registerTestValid" duration-ms="34571" started-at="2020-08-12T06:50:01Z" description="Register using valid details" data-provider="dp" finished-at="2020-08-12T06:50:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aanandu9@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gladiataor]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTestValid -->
+        <test-method status="PASS" signature="registerTestValid(java.lang.String, java.lang.String)[pri:7, instance:com.easemytrip.runner.LoginRegistrationTest@6ab7a896]" name="registerTestValid" duration-ms="12624" started-at="2020-08-12T06:50:36Z" description="Register using valid details" data-provider="dp" finished-at="2020-08-12T06:50:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9434269883]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gladiator]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTestValid -->
+        <test-method status="PASS" signature="registerTestInvalid(java.lang.String, java.lang.String)[pri:8, instance:com.easemytrip.runner.LoginRegistrationTest@6ab7a896]" name="registerTestInvalid" duration-ms="12650" started-at="2020-08-12T06:50:49Z" description="Register using invalid Details" data-provider="invalidData" finished-at="2020-08-12T06:51:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gladiataor]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTestInvalid -->
+        <test-method status="PASS" signature="registerTestInvalid(java.lang.String, java.lang.String)[pri:8, instance:com.easemytrip.runner.LoginRegistrationTest@6ab7a896]" name="registerTestInvalid" duration-ms="12740" started-at="2020-08-12T06:51:02Z" description="Register using invalid Details" data-provider="invalidData" finished-at="2020-08-12T06:51:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1234.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gladiator]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTestInvalid -->
+        <test-method status="PASS" signature="registerTestInvalid(java.lang.String, java.lang.String)[pri:8, instance:com.easemytrip.runner.LoginRegistrationTest@6ab7a896]" name="registerTestInvalid" duration-ms="12593" started-at="2020-08-12T06:51:15Z" description="Register using invalid Details" data-provider="invalidData" finished-at="2020-08-12T06:51:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aanandu9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gladiator]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTestInvalid -->
+        <test-method status="PASS" signature="registerTestInvalid(java.lang.String, java.lang.String)[pri:8, instance:com.easemytrip.runner.LoginRegistrationTest@6ab7a896]" name="registerTestInvalid" duration-ms="12595" started-at="2020-08-12T06:51:28Z" description="Register using invalid Details" data-provider="invalidData" finished-at="2020-08-12T06:51:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aanandu9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTestInvalid -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.easemytrip.runner.LoginRegistrationTest@6ab7a896]" name="afterTest" is-config="true" duration-ms="869" started-at="2020-08-12T06:51:41Z" finished-at="2020-08-12T06:51:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.easemytrip.runner.LoginRegistrationTest -->
+    </test> <!-- LoginRegisterTest -->
+    <test name="OneWayTest" duration-ms="208378" started-at="2020-08-12T06:51:42Z" finished-at="2020-08-12T06:55:10Z">
+      <class name="com.easemytrip.runner.HomePageRunner">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" name="beforeTest" is-config="true" duration-ms="11114" started-at="2020-08-12T06:51:42Z" finished-at="2020-08-12T06:51:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="homePageTest()[pri:1, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" name="homePageTest" duration-ms="3556" started-at="2020-08-12T06:51:53Z" finished-at="2020-08-12T06:51:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTest -->
+        <test-method status="PASS" signature="WebCheckInClickTest()[pri:2, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" name="WebCheckInClickTest" duration-ms="2318" started-at="2020-08-12T06:51:57Z" depends-on-methods="com.easemytrip.runner.HomePageRunner.homePageTest" finished-at="2020-08-12T06:51:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebCheckInClickTest -->
+        <test-method status="PASS" signature="FlightsModuleClickTest()[pri:3, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" name="FlightsModuleClickTest" duration-ms="1595" started-at="2020-08-12T06:52:00Z" depends-on-methods="com.easemytrip.runner.HomePageRunner.WebCheckInClickTest" finished-at="2020-08-12T06:52:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightsModuleClickTest -->
+        <test-method status="PASS" signature="logoClickTest()[pri:4, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" name="logoClickTest" duration-ms="2490" started-at="2020-08-12T06:52:02Z" depends-on-methods="com.easemytrip.runner.HomePageRunner.FlightsModuleClickTest" finished-at="2020-08-12T06:52:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoClickTest -->
+        <test-method status="PASS" signature="multicityCheckBoxTest()[pri:5, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" name="multicityCheckBoxTest" duration-ms="245" started-at="2020-08-12T06:52:04Z" depends-on-methods="com.easemytrip.runner.HomePageRunner.logoClickTest" finished-at="2020-08-12T06:52:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multicityCheckBoxTest -->
+        <test-method status="PASS" signature="DefenceCheckBoxTest()[pri:6, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" name="DefenceCheckBoxTest" duration-ms="109" started-at="2020-08-12T06:52:05Z" depends-on-methods="com.easemytrip.runner.HomePageRunner.logoClickTest" finished-at="2020-08-12T06:52:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefenceCheckBoxTest -->
+        <test-method status="PASS" signature="studentsCheckBoxTest()[pri:7, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" name="studentsCheckBoxTest" duration-ms="109" started-at="2020-08-12T06:52:06Z" depends-on-methods="com.easemytrip.runner.HomePageRunner.logoClickTest" finished-at="2020-08-12T06:52:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- studentsCheckBoxTest -->
+        <test-method status="PASS" signature="seniorCitizenCheckBoxTest()[pri:8, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" name="seniorCitizenCheckBoxTest" duration-ms="125" started-at="2020-08-12T06:52:06Z" depends-on-methods="com.easemytrip.runner.HomePageRunner.logoClickTest" finished-at="2020-08-12T06:52:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seniorCitizenCheckBoxTest -->
+        <test-method status="PASS" signature="doctorsCheckBoxTest()[pri:9, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" name="doctorsCheckBoxTest" duration-ms="101" started-at="2020-08-12T06:52:07Z" depends-on-methods="com.easemytrip.runner.HomePageRunner.logoClickTest" finished-at="2020-08-12T06:52:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doctorsCheckBoxTest -->
+        <test-method status="PASS" signature="HotelsModuleClickTest()[pri:10, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" name="HotelsModuleClickTest" duration-ms="1532" started-at="2020-08-12T06:52:07Z" depends-on-methods="com.easemytrip.runner.HomePageRunner.FlightsModuleClickTest" finished-at="2020-08-12T06:52:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HotelsModuleClickTest -->
+        <test-method status="PASS" signature="importantInfoClickTest()[pri:11, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" name="importantInfoClickTest" duration-ms="3380" started-at="2020-08-12T06:52:09Z" depends-on-methods="com.easemytrip.runner.HomePageRunner.HotelsModuleClickTest" finished-at="2020-08-12T06:52:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- importantInfoClickTest -->
+        <test-method status="PASS" signature="ourProductsClickTest()[pri:12, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" name="ourProductsClickTest" duration-ms="2040" started-at="2020-08-12T06:52:13Z" depends-on-methods="com.easemytrip.runner.HomePageRunner.importantInfoClickTest" finished-at="2020-08-12T06:52:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ourProductsClickTest -->
+        <test-method status="PASS" signature="emtInfoClickTest()[pri:13, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" name="emtInfoClickTest" duration-ms="2895" started-at="2020-08-12T06:52:15Z" depends-on-methods="com.easemytrip.runner.HomePageRunner.ourProductsClickTest" finished-at="2020-08-12T06:52:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emtInfoClickTest -->
+        <test-method status="PASS" signature="siteDirectoryClickTest()[pri:14, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" name="siteDirectoryClickTest" duration-ms="3399" started-at="2020-08-12T06:52:19Z" depends-on-methods="com.easemytrip.runner.HomePageRunner.emtInfoClickTest" finished-at="2020-08-12T06:52:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- siteDirectoryClickTest -->
+        <test-method status="PASS" signature="popularAirlinesClickTest()[pri:15, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" name="popularAirlinesClickTest" duration-ms="6377" started-at="2020-08-12T06:52:22Z" depends-on-methods="com.easemytrip.runner.HomePageRunner.siteDirectoryClickTest" finished-at="2020-08-12T06:52:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- popularAirlinesClickTest -->
+        <test-method status="PASS" signature="androidStoreClickTest()[pri:16, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" name="androidStoreClickTest" duration-ms="3656" started-at="2020-08-12T06:52:29Z" depends-on-methods="com.easemytrip.runner.HomePageRunner.popularAirlinesClickTest" finished-at="2020-08-12T06:52:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- androidStoreClickTest -->
+        <test-method status="PASS" signature="iosStoreClickTest()[pri:17, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" name="iosStoreClickTest" duration-ms="5674" started-at="2020-08-12T06:52:33Z" depends-on-methods="com.easemytrip.runner.HomePageRunner.androidStoreClickTest" finished-at="2020-08-12T06:52:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iosStoreClickTest -->
+        <test-method status="PASS" signature="switchCheck()[pri:17, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" name="switchCheck" duration-ms="2309" started-at="2020-08-12T06:52:40Z" finished-at="2020-08-12T06:52:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switchCheck -->
+        <test-method status="FAIL" signature="myAccountMouseHoverTest()[pri:18, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" name="myAccountMouseHoverTest" duration-ms="305" started-at="2020-08-12T06:52:42Z" finished-at="2020-08-12T06:52:43Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at com.easemytrip.runner.HomePageRunner.myAccountMouseHoverTest(HomePageRunner.java:182)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myAccountMouseHoverTest -->
+        <test-method status="PASS" signature="helplineMouseHoverTest()[pri:19, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" name="helplineMouseHoverTest" duration-ms="180" started-at="2020-08-12T06:52:43Z" finished-at="2020-08-12T06:52:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- helplineMouseHoverTest -->
+        <test-method status="PASS" signature="TravelGuideClickTest()[pri:20, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" name="TravelGuideClickTest" duration-ms="3412" started-at="2020-08-12T06:52:44Z" finished-at="2020-08-12T06:52:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TravelGuideClickTest -->
+        <test-method status="PASS" signature="searchFlightOneWayTest(java.lang.String, java.lang.String, java.lang.String, int, int, int, java.lang.String)[pri:21, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" name="searchFlightOneWayTest" duration-ms="23945" started-at="2020-08-12T06:52:47Z" data-provider="dp" finished-at="2020-08-12T06:53:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Delhi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22-08-2020]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Economy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchFlightOneWayTest -->
+        <test-method status="PASS" signature="searchFlightOneWayTest(java.lang.String, java.lang.String, java.lang.String, int, int, int, java.lang.String)[pri:21, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" name="searchFlightOneWayTest" duration-ms="22049" started-at="2020-08-12T06:53:12Z" data-provider="dp" finished-at="2020-08-12T06:53:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Delhi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mmmm]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22-09-2020]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Business]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchFlightOneWayTest -->
+        <test-method status="PASS" signature="searchFlightOneWayTest(java.lang.String, java.lang.String, java.lang.String, int, int, int, java.lang.String)[pri:21, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" name="searchFlightOneWayTest" duration-ms="13218" started-at="2020-08-12T06:53:34Z" data-provider="dp" finished-at="2020-08-12T06:53:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Delhi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mumbai]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22-09-2020]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Business]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchFlightOneWayTest -->
+        <test-method status="PASS" signature="search()[pri:22, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" name="search" duration-ms="5002" started-at="2020-08-12T06:53:49Z" finished-at="2020-08-12T06:53:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="titleVerify()[pri:23, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" name="titleVerify" duration-ms="12" started-at="2020-08-12T06:53:54Z" depends-on-methods="com.easemytrip.runner.HomePageRunner.search" finished-at="2020-08-12T06:53:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleVerify -->
+        <test-method status="PASS" signature="modify()[pri:24, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" name="modify" duration-ms="4072" started-at="2020-08-12T06:53:55Z" depends-on-methods="com.easemytrip.runner.HomePageRunner.titleVerify" finished-at="2020-08-12T06:53:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modify -->
+        <test-method status="PASS" signature="next()[pri:25, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" name="next" duration-ms="4156" started-at="2020-08-12T06:53:59Z" depends-on-methods="com.easemytrip.runner.HomePageRunner.modify" finished-at="2020-08-12T06:54:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- next -->
+        <test-method status="PASS" signature="prev()[pri:26, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" name="prev" duration-ms="410" started-at="2020-08-12T06:54:04Z" depends-on-methods="com.easemytrip.runner.HomePageRunner.next" finished-at="2020-08-12T06:54:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prev -->
+        <test-method status="PASS" signature="amountDisplay()[pri:27, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" name="amountDisplay" duration-ms="41" started-at="2020-08-12T06:54:05Z" depends-on-methods="com.easemytrip.runner.HomePageRunner.prev" finished-at="2020-08-12T06:54:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amountDisplay -->
+        <test-method status="PASS" signature="scrollDown()[pri:28, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" name="scrollDown" duration-ms="10" started-at="2020-08-12T06:54:06Z" depends-on-methods="com.easemytrip.runner.HomePageRunner.amountDisplay" finished-at="2020-08-12T06:54:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollDown -->
+        <test-method status="PASS" signature="flightDetails()[pri:29, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" name="flightDetails" duration-ms="4573" started-at="2020-08-12T06:54:06Z" depends-on-methods="com.easemytrip.runner.HomePageRunner.scrollDown" finished-at="2020-08-12T06:54:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightDetails -->
+        <test-method status="PASS" signature="addFilters()[pri:30, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" name="addFilters" duration-ms="2790" started-at="2020-08-12T06:54:11Z" depends-on-methods="com.easemytrip.runner.HomePageRunner.flightDetails" finished-at="2020-08-12T06:54:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addFilters -->
+        <test-method status="PASS" signature="scrollUp()[pri:31, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" name="scrollUp" duration-ms="18" started-at="2020-08-12T06:54:14Z" depends-on-methods="com.easemytrip.runner.HomePageRunner.addFilters" finished-at="2020-08-12T06:54:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollUp -->
+        <test-method status="PASS" signature="bookFlight()[pri:32, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" name="bookFlight" duration-ms="5025" started-at="2020-08-12T06:54:15Z" depends-on-methods="com.easemytrip.runner.HomePageRunner.scrollUp" finished-at="2020-08-12T06:54:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookFlight -->
+        <test-method status="PASS" signature="flightDetailsOneWay()[pri:33, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" name="flightDetailsOneWay" duration-ms="84" started-at="2020-08-12T06:54:20Z" description="One-Way Flight details check" finished-at="2020-08-12T06:54:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightDetailsOneWay -->
+        <test-method status="PASS" signature="travellerEMICheckCLearButton()[pri:34, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" name="travellerEMICheckCLearButton" duration-ms="2060" started-at="2020-08-12T06:54:21Z" description="Coupon Check" depends-on-methods="com.easemytrip.runner.HomePageRunner.flightDetailsOneWay" finished-at="2020-08-12T06:54:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- travellerEMICheckCLearButton -->
+        <test-method status="PASS" signature="uinsuranceRadioCheck()[pri:35, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" name="uinsuranceRadioCheck" duration-ms="242" started-at="2020-08-12T06:54:23Z" description="Travel Insurance Radio Button" depends-on-methods="com.easemytrip.runner.HomePageRunner.flightDetailsOneWay" finished-at="2020-08-12T06:54:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uinsuranceRadioCheck -->
+        <test-method status="PASS" signature="freeCancellationRadio()[pri:36, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" name="freeCancellationRadio" duration-ms="234" started-at="2020-08-12T06:54:23Z" description="Free Cancellation Radio Button" depends-on-methods="com.easemytrip.runner.HomePageRunner.flightDetailsOneWay" finished-at="2020-08-12T06:54:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- freeCancellationRadio -->
+        <test-method name="verifyEmail" signature="verifyEmail(java.lang.String)[pri:37, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" status="PASS" duration-ms="344" finished-at="2020-08-12T06:54:24Z" started-at="2020-08-12T06:54:24Z" depends-on-methods="com.easemytrip.runner.HomePageRunner.flightDetailsOneWay" data-provider="dpForEmail" description="Email Verification">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[avinashgmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmail -->
+        <test-method name="verifyEmail" signature="verifyEmail(java.lang.String)[pri:37, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" status="PASS" duration-ms="243" finished-at="2020-08-12T06:54:25Z" started-at="2020-08-12T06:54:25Z" depends-on-methods="com.easemytrip.runner.HomePageRunner.flightDetailsOneWay" data-provider="dpForEmail" description="Email Verification">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[avinash@gmail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmail -->
+        <test-method name="verifyEmail" signature="verifyEmail(java.lang.String)[pri:37, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" status="PASS" duration-ms="441" finished-at="2020-08-12T06:54:26Z" started-at="2020-08-12T06:54:25Z" depends-on-methods="com.easemytrip.runner.HomePageRunner.flightDetailsOneWay" data-provider="dpForEmail" description="Email Verification">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[avinash@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmail -->
+        <test-method status="PASS" signature="verifyAdultTravellerTitleDropDown()[pri:38, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" name="verifyAdultTravellerTitleDropDown" duration-ms="131" started-at="2020-08-12T06:54:26Z" description="Verify Adult Traveller Title" depends-on-methods="com.easemytrip.runner.HomePageRunner.flightDetailsOneWay" finished-at="2020-08-12T06:54:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdultTravellerTitleDropDown -->
+        <test-method name="verifyAdultTravellerFirstName" signature="verifyAdultTravellerFirstName(java.lang.String)[pri:39, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" status="PASS" duration-ms="294" finished-at="2020-08-12T06:54:27Z" started-at="2020-08-12T06:54:27Z" depends-on-methods="com.easemytrip.runner.HomePageRunner.flightDetailsOneWay" data-provider="dpForTravellerName" description="Verify Adult Traveller Details (First Name)">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[avi123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdultTravellerFirstName -->
+        <test-method name="verifyAdultTravellerFirstName" signature="verifyAdultTravellerFirstName(java.lang.String)[pri:39, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" status="PASS" duration-ms="146" finished-at="2020-08-12T06:54:28Z" started-at="2020-08-12T06:54:27Z" depends-on-methods="com.easemytrip.runner.HomePageRunner.flightDetailsOneWay" data-provider="dpForTravellerName" description="Verify Adult Traveller Details (First Name)">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Avinash]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdultTravellerFirstName -->
+        <test-method name="verifyAdultTravellerFirstName" signature="verifyAdultTravellerFirstName(java.lang.String)[pri:39, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" status="PASS" duration-ms="179" finished-at="2020-08-12T06:54:28Z" started-at="2020-08-12T06:54:28Z" depends-on-methods="com.easemytrip.runner.HomePageRunner.flightDetailsOneWay" data-provider="dpForTravellerName" description="Verify Adult Traveller Details (First Name)">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[avi#$]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdultTravellerFirstName -->
+        <test-method name="verifyAdultTravellerLastName" signature="verifyAdultTravellerLastName(java.lang.String)[pri:40, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" status="PASS" duration-ms="232" finished-at="2020-08-12T06:54:29Z" started-at="2020-08-12T06:54:29Z" depends-on-methods="com.easemytrip.runner.HomePageRunner.flightDetailsOneWay" data-provider="dpForTravellerName" description="Verify Adult Traveller Details (Last Name)">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[avi123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdultTravellerLastName -->
+        <test-method name="verifyAdultTravellerLastName" signature="verifyAdultTravellerLastName(java.lang.String)[pri:40, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" status="PASS" duration-ms="141" finished-at="2020-08-12T06:54:29Z" started-at="2020-08-12T06:54:29Z" depends-on-methods="com.easemytrip.runner.HomePageRunner.flightDetailsOneWay" data-provider="dpForTravellerName" description="Verify Adult Traveller Details (Last Name)">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Avinash]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdultTravellerLastName -->
+        <test-method name="verifyAdultTravellerLastName" signature="verifyAdultTravellerLastName(java.lang.String)[pri:40, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" status="PASS" duration-ms="365" finished-at="2020-08-12T06:54:30Z" started-at="2020-08-12T06:54:30Z" depends-on-methods="com.easemytrip.runner.HomePageRunner.flightDetailsOneWay" data-provider="dpForTravellerName" description="Verify Adult Traveller Details (Last Name)">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[avi#$]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdultTravellerLastName -->
+        <test-method status="PASS" signature="verifyAddBaggageButton()[pri:41, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" name="verifyAddBaggageButton" duration-ms="610" started-at="2020-08-12T06:54:30Z" description="Verify Add Baggage button" depends-on-methods="com.easemytrip.runner.HomePageRunner.flightDetailsOneWay" finished-at="2020-08-12T06:54:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddBaggageButton -->
+        <test-method status="PASS" signature="removeAdult()[pri:42, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" name="removeAdult" duration-ms="182" started-at="2020-08-12T06:54:31Z" description="Verify Remove Adult button" depends-on-methods="com.easemytrip.runner.HomePageRunner.flightDetailsOneWay" finished-at="2020-08-12T06:54:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeAdult -->
+        <test-method status="PASS" signature="verifyAddAdultButton()[pri:43, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" name="verifyAddAdultButton" duration-ms="1930" started-at="2020-08-12T06:54:32Z" description="Verify Add Adult Button" depends-on-methods="com.easemytrip.runner.HomePageRunner.flightDetailsOneWay" finished-at="2020-08-12T06:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddAdultButton -->
+        <test-method status="PASS" signature="verifyChildTravellerTitle()[pri:44, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" name="verifyChildTravellerTitle" duration-ms="136" started-at="2020-08-12T06:54:34Z" description="Verify Child Traveller Title" depends-on-methods="com.easemytrip.runner.HomePageRunner.flightDetailsOneWay" finished-at="2020-08-12T06:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyChildTravellerTitle -->
+        <test-method name="verifyChildTravellerFirstName" signature="verifyChildTravellerFirstName(java.lang.String)[pri:45, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" status="PASS" duration-ms="231" finished-at="2020-08-12T06:54:35Z" started-at="2020-08-12T06:54:35Z" depends-on-methods="com.easemytrip.runner.HomePageRunner.flightDetailsOneWay" data-provider="dpForTravellerName" description="Verify Child Traveller Details (First Name)">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[avi123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyChildTravellerFirstName -->
+        <test-method name="verifyChildTravellerFirstName" signature="verifyChildTravellerFirstName(java.lang.String)[pri:45, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" status="PASS" duration-ms="184" finished-at="2020-08-12T06:54:35Z" started-at="2020-08-12T06:54:35Z" depends-on-methods="com.easemytrip.runner.HomePageRunner.flightDetailsOneWay" data-provider="dpForTravellerName" description="Verify Child Traveller Details (First Name)">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Avinash]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyChildTravellerFirstName -->
+        <test-method name="verifyChildTravellerFirstName" signature="verifyChildTravellerFirstName(java.lang.String)[pri:45, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" status="PASS" duration-ms="210" finished-at="2020-08-12T06:54:36Z" started-at="2020-08-12T06:54:36Z" depends-on-methods="com.easemytrip.runner.HomePageRunner.flightDetailsOneWay" data-provider="dpForTravellerName" description="Verify Child Traveller Details (First Name)">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[avi#$]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyChildTravellerFirstName -->
+        <test-method name="verifyChildTravellerLastName" signature="verifyChildTravellerLastName(java.lang.String)[pri:46, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" status="PASS" duration-ms="217" finished-at="2020-08-12T06:54:36Z" started-at="2020-08-12T06:54:36Z" depends-on-methods="com.easemytrip.runner.HomePageRunner.flightDetailsOneWay" data-provider="dpForTravellerName" description="Verify Child Traveller Details (Last Name)">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[avi123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyChildTravellerLastName -->
+        <test-method name="verifyChildTravellerLastName" signature="verifyChildTravellerLastName(java.lang.String)[pri:46, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" status="PASS" duration-ms="147" finished-at="2020-08-12T06:54:37Z" started-at="2020-08-12T06:54:37Z" depends-on-methods="com.easemytrip.runner.HomePageRunner.flightDetailsOneWay" data-provider="dpForTravellerName" description="Verify Child Traveller Details (Last Name)">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Avinash]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyChildTravellerLastName -->
+        <test-method name="verifyChildTravellerLastName" signature="verifyChildTravellerLastName(java.lang.String)[pri:46, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" status="PASS" duration-ms="174" finished-at="2020-08-12T06:54:37Z" started-at="2020-08-12T06:54:37Z" depends-on-methods="com.easemytrip.runner.HomePageRunner.flightDetailsOneWay" data-provider="dpForTravellerName" description="Verify Child Traveller Details (Last Name)">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[avi#$]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyChildTravellerLastName -->
+        <test-method status="PASS" signature="removeChild()[pri:47, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" name="removeChild" duration-ms="131" started-at="2020-08-12T06:54:38Z" description="Verify Remove Child button" depends-on-methods="com.easemytrip.runner.HomePageRunner.flightDetailsOneWay" finished-at="2020-08-12T06:54:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeChild -->
+        <test-method status="PASS" signature="verifyAddChildButton()[pri:48, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" name="verifyAddChildButton" duration-ms="889" started-at="2020-08-12T06:54:38Z" description="Verify Add Child Button" depends-on-methods="com.easemytrip.runner.HomePageRunner.flightDetailsOneWay" finished-at="2020-08-12T06:54:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddChildButton -->
+        <test-method status="PASS" signature="verifyInfantTravellerTitle()[pri:49, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" name="verifyInfantTravellerTitle" duration-ms="113" started-at="2020-08-12T06:54:39Z" description="Verify Infant Traveller Title" depends-on-methods="com.easemytrip.runner.HomePageRunner.flightDetailsOneWay" finished-at="2020-08-12T06:54:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInfantTravellerTitle -->
+        <test-method name="verifyInfantTravellerFirstName" signature="verifyInfantTravellerFirstName(java.lang.String)[pri:50, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" status="PASS" duration-ms="224" finished-at="2020-08-12T06:54:40Z" started-at="2020-08-12T06:54:40Z" depends-on-methods="com.easemytrip.runner.HomePageRunner.flightDetailsOneWay" data-provider="dpForTravellerName" description="Verify Infant Traveller Details (First Name)">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[avi123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInfantTravellerFirstName -->
+        <test-method name="verifyInfantTravellerFirstName" signature="verifyInfantTravellerFirstName(java.lang.String)[pri:50, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" status="PASS" duration-ms="138" finished-at="2020-08-12T06:54:41Z" started-at="2020-08-12T06:54:40Z" depends-on-methods="com.easemytrip.runner.HomePageRunner.flightDetailsOneWay" data-provider="dpForTravellerName" description="Verify Infant Traveller Details (First Name)">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Avinash]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInfantTravellerFirstName -->
+        <test-method name="verifyInfantTravellerFirstName" signature="verifyInfantTravellerFirstName(java.lang.String)[pri:50, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" status="PASS" duration-ms="276" finished-at="2020-08-12T06:54:41Z" started-at="2020-08-12T06:54:41Z" depends-on-methods="com.easemytrip.runner.HomePageRunner.flightDetailsOneWay" data-provider="dpForTravellerName" description="Verify Infant Traveller Details (First Name)">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[avi#$]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInfantTravellerFirstName -->
+        <test-method name="verifyInfantTravellerLastName" signature="verifyInfantTravellerLastName(java.lang.String)[pri:51, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" status="PASS" duration-ms="146" finished-at="2020-08-12T06:54:42Z" started-at="2020-08-12T06:54:42Z" depends-on-methods="com.easemytrip.runner.HomePageRunner.flightDetailsOneWay" data-provider="dpForTravellerName" description="Verify Infant Traveller Details (Last Name)">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[avi123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInfantTravellerLastName -->
+        <test-method name="verifyInfantTravellerLastName" signature="verifyInfantTravellerLastName(java.lang.String)[pri:51, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" status="PASS" duration-ms="156" finished-at="2020-08-12T06:54:42Z" started-at="2020-08-12T06:54:42Z" depends-on-methods="com.easemytrip.runner.HomePageRunner.flightDetailsOneWay" data-provider="dpForTravellerName" description="Verify Infant Traveller Details (Last Name)">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Avinash]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInfantTravellerLastName -->
+        <test-method name="verifyInfantTravellerLastName" signature="verifyInfantTravellerLastName(java.lang.String)[pri:51, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" status="PASS" duration-ms="175" finished-at="2020-08-12T06:54:43Z" started-at="2020-08-12T06:54:42Z" depends-on-methods="com.easemytrip.runner.HomePageRunner.flightDetailsOneWay" data-provider="dpForTravellerName" description="Verify Infant Traveller Details (Last Name)">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[avi#$]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInfantTravellerLastName -->
+        <test-method status="PASS" signature="verifyInfantTravellerDOB()[pri:52, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" name="verifyInfantTravellerDOB" duration-ms="454" started-at="2020-08-12T06:54:43Z" description="Verify Infant Traveller Details (DOB)" depends-on-methods="com.easemytrip.runner.HomePageRunner.flightDetailsOneWay" finished-at="2020-08-12T06:54:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInfantTravellerDOB -->
+        <test-method status="PASS" signature="removeInfant()[pri:53, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" name="removeInfant" duration-ms="140" started-at="2020-08-12T06:54:44Z" description="Verify Remove Infant button" depends-on-methods="com.easemytrip.runner.HomePageRunner.flightDetailsOneWay" finished-at="2020-08-12T06:54:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeInfant -->
+        <test-method status="PASS" signature="verifyAddInfantButton()[pri:54, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" name="verifyAddInfantButton" duration-ms="2233" started-at="2020-08-12T06:54:44Z" description="Verify Add Infant Button" depends-on-methods="com.easemytrip.runner.HomePageRunner.flightDetailsOneWay" finished-at="2020-08-12T06:54:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddInfantButton -->
+        <test-method status="PASS" signature="addSeatVerify()[pri:55, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" name="addSeatVerify" duration-ms="163" started-at="2020-08-12T06:54:47Z" description="Add Seat Button Verifcation" depends-on-methods="com.easemytrip.runner.HomePageRunner.flightDetailsOneWay" finished-at="2020-08-12T06:54:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addSeatVerify -->
+        <test-method name="verifyContactNo" signature="verifyContactNo(java.lang.String)[pri:56, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" status="PASS" duration-ms="4408" finished-at="2020-08-12T06:54:52Z" started-at="2020-08-12T06:54:47Z" depends-on-methods="com.easemytrip.runner.HomePageRunner.flightDetailsOneWay" data-provider="dpForContact" description="Verify Contact No.">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[99445]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactNo -->
+        <test-method name="verifyContactNo" signature="verifyContactNo(java.lang.String)[pri:56, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" status="PASS" duration-ms="4297" finished-at="2020-08-12T06:54:56Z" started-at="2020-08-12T06:54:52Z" depends-on-methods="com.easemytrip.runner.HomePageRunner.flightDetailsOneWay" data-provider="dpForContact" description="Verify Contact No.">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3000000000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactNo -->
+        <test-method name="verifyContactNo" signature="verifyContactNo(java.lang.String)[pri:56, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" status="PASS" duration-ms="7436" finished-at="2020-08-12T06:55:04Z" started-at="2020-08-12T06:54:57Z" depends-on-methods="com.easemytrip.runner.HomePageRunner.flightDetailsOneWay" data-provider="dpForContact" description="Verify Contact No.">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9933244369]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactNo -->
+        <test-method name="verifyContactNo" signature="verifyContactNo(java.lang.String)[pri:56, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" status="FAIL" duration-ms="4355" finished-at="2020-08-12T06:55:09Z" started-at="2020-08-12T06:55:05Z" depends-on-methods="com.easemytrip.runner.HomePageRunner.flightDetailsOneWay" data-provider="dpForContact" description="Verify Contact No.">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6000000000]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at com.easemytrip.runner.HomePageRunner.verifyContactNo(HomePageRunner.java:728)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactNo -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.easemytrip.runner.HomePageRunner@6293abcc]" name="afterTest" is-config="true" duration-ms="929" started-at="2020-08-12T06:55:09Z" finished-at="2020-08-12T06:55:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.easemytrip.runner.HomePageRunner -->
+    </test> <!-- OneWayTest -->
+    <test name="HotelTest" duration-ms="93444" started-at="2020-08-12T06:55:10Z" finished-at="2020-08-12T06:56:44Z">
+      <class name="com.easemytrip.runner.MainHotelRunner">
+        <test-method status="PASS" signature="beforeSuiteSetup()[pri:0, instance:com.easemytrip.runner.MainHotelRunner@184cf7cf]" name="beforeSuiteSetup" is-config="true" duration-ms="244" started-at="2020-08-12T06:45:27Z" finished-at="2020-08-12T06:45:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuiteSetup -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.easemytrip.runner.MainHotelRunner@184cf7cf]" name="beforeTest" is-config="true" duration-ms="8608" started-at="2020-08-12T06:55:10Z" finished-at="2020-08-12T06:55:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="SearchHotels(java.lang.String, int, java.lang.String, int, java.lang.String, int)[pri:1, instance:com.easemytrip.runner.MainHotelRunner@184cf7cf]" name="SearchHotels" duration-ms="18817" started-at="2020-08-12T06:55:19Z" description="seach hotel" data-provider="getData" finished-at="2020-08-12T06:55:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[adadijnndsi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[22]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[March]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[March]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchHotels -->
+        <test-method status="PASS" signature="SearchHotels(java.lang.String, int, java.lang.String, int, java.lang.String, int)[pri:1, instance:com.easemytrip.runner.MainHotelRunner@184cf7cf]" name="SearchHotels" duration-ms="14230" started-at="2020-08-12T06:55:38Z" description="seach hotel" data-provider="getData" finished-at="2020-08-12T06:55:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[New Delhi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[September]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[September]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchHotels -->
+        <test-method status="PASS" signature="clickeasybtn()[pri:2, instance:com.easemytrip.runner.MainHotelRunner@184cf7cf]" name="clickeasybtn" duration-ms="230" started-at="2020-08-12T06:55:53Z" description="Easy Stay Test" finished-at="2020-08-12T06:55:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickeasybtn -->
+        <test-method status="PASS" signature="clickluxeasybtn()[pri:3, instance:com.easemytrip.runner.MainHotelRunner@184cf7cf]" name="clickluxeasybtn" duration-ms="2172" started-at="2020-08-12T06:55:53Z" description="Luxury Stay Test" finished-at="2020-08-12T06:55:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickluxeasybtn -->
+        <test-method status="PASS" signature="clickbrowseall()[pri:4, instance:com.easemytrip.runner.MainHotelRunner@184cf7cf]" name="clickbrowseall" duration-ms="4176" started-at="2020-08-12T06:55:56Z" description="Browse all hotels test" finished-at="2020-08-12T06:56:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickbrowseall -->
+        <test-method status="PASS" signature="chcktripadvisor()[pri:5, instance:com.easemytrip.runner.MainHotelRunner@184cf7cf]" name="chcktripadvisor" duration-ms="8489" started-at="2020-08-12T06:56:01Z" description="Trip advisor test" finished-at="2020-08-12T06:56:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chcktripadvisor -->
+        <test-method status="PASS" signature="chckamenities()[pri:6, instance:com.easemytrip.runner.MainHotelRunner@184cf7cf]" name="chckamenities" duration-ms="6203" started-at="2020-08-12T06:56:10Z" description="Amenities filter test" finished-at="2020-08-12T06:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chckamenities -->
+        <test-method status="PASS" signature="listpagebooknow()[pri:7, instance:com.easemytrip.runner.MainHotelRunner@184cf7cf]" name="listpagebooknow" duration-ms="268" started-at="2020-08-12T06:56:16Z" description="book now button test" finished-at="2020-08-12T06:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listpagebooknow -->
+        <test-method status="PASS" signature="clickonshowallamenities()[pri:8, instance:com.easemytrip.runner.MainHotelRunner@184cf7cf]" name="clickonshowallamenities" duration-ms="2149" started-at="2020-08-12T06:56:20Z" description="Show Amenities test" depends-on-methods="com.easemytrip.runner.MainHotelRunner.listpagebooknow" finished-at="2020-08-12T06:56:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonshowallamenities -->
+        <test-method status="PASS" signature="scrolltoreviews()[pri:9, instance:com.easemytrip.runner.MainHotelRunner@184cf7cf]" name="scrolltoreviews" duration-ms="3023" started-at="2020-08-12T06:56:23Z" description="Scrolling to review test" finished-at="2020-08-12T06:56:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrolltoreviews -->
+        <test-method status="PASS" signature="clickonbooknow()[pri:10, instance:com.easemytrip.runner.MainHotelRunner@184cf7cf]" name="clickonbooknow" duration-ms="5666" started-at="2020-08-12T06:56:26Z" description="Book now test" finished-at="2020-08-12T06:56:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonbooknow -->
+        <test-method status="PASS" signature="selectTitle()[pri:11, instance:com.easemytrip.runner.MainHotelRunner@184cf7cf]" name="selectTitle" duration-ms="93" started-at="2020-08-12T06:56:32Z" description="Title selecting test" finished-at="2020-08-12T06:56:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectTitle -->
+        <test-method status="PASS" signature="enterdetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:12, instance:com.easemytrip.runner.MainHotelRunner@184cf7cf]" name="enterdetails" duration-ms="1436" started-at="2020-08-12T06:56:33Z" description="Traveller details test" data-provider="dpHTD" finished-at="2020-08-12T06:56:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Schrute]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Shawn]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mendes]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dwight@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[9.580533666E9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterdetails -->
+        <test-method status="PASS" signature="enterdetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:12, instance:com.easemytrip.runner.MainHotelRunner@184cf7cf]" name="enterdetails" duration-ms="969" started-at="2020-08-12T06:56:35Z" description="Traveller details test" data-provider="dpHTD" finished-at="2020-08-12T06:56:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dwight]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Shawn]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mendes]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dwight@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[9.580533666E9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterdetails -->
+        <test-method status="PASS" signature="enterdetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:12, instance:com.easemytrip.runner.MainHotelRunner@184cf7cf]" name="enterdetails" duration-ms="1032" started-at="2020-08-12T06:56:36Z" description="Traveller details test" data-provider="dpHTD" finished-at="2020-08-12T06:56:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dwight]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Schrute]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Shawn]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mendes]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dwight#st@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[9.580533666E9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterdetails -->
+        <test-method status="PASS" signature="enterdetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:12, instance:com.easemytrip.runner.MainHotelRunner@184cf7cf]" name="enterdetails" duration-ms="965" started-at="2020-08-12T06:56:37Z" description="Traveller details test" data-provider="dpHTD" finished-at="2020-08-12T06:56:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dwight]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Schrute]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Shawn]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mendes]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[9.580533666E9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterdetails -->
+        <test-method status="PASS" signature="enterdetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:12, instance:com.easemytrip.runner.MainHotelRunner@184cf7cf]" name="enterdetails" duration-ms="951" started-at="2020-08-12T06:56:39Z" description="Traveller details test" data-provider="dpHTD" finished-at="2020-08-12T06:56:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dwight]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[schrute]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Shawn]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mendes]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dwight@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterdetails -->
+        <test-method status="PASS" signature="enterdetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:12, instance:com.easemytrip.runner.MainHotelRunner@184cf7cf]" name="enterdetails" duration-ms="1093" started-at="2020-08-12T06:56:40Z" description="Traveller details test" data-provider="dpHTD" finished-at="2020-08-12T06:56:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dwight]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Schrute]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Shawn]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mendes]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dwight@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[9.580533666E9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterdetails -->
+        <test-method status="PASS" signature="enterdetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:12, instance:com.easemytrip.runner.MainHotelRunner@184cf7cf]" name="enterdetails" duration-ms="1097" started-at="2020-08-12T06:56:41Z" description="Traveller details test" data-provider="dpHTD" finished-at="2020-08-12T06:56:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dwight]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Schrute]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Shawn]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mendes]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dwight@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[3456.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterdetails -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.easemytrip.runner.MainHotelRunner@184cf7cf]" name="afterTest" is-config="true" duration-ms="899" started-at="2020-08-12T06:56:43Z" finished-at="2020-08-12T06:56:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.easemytrip.runner.MainHotelRunner@184cf7cf]" name="afterSuite" is-config="true" duration-ms="655" started-at="2020-08-12T06:56:44Z" finished-at="2020-08-12T06:56:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.easemytrip.runner.MainHotelRunner -->
+    </test> <!-- HotelTest -->
+  </suite> <!-- Suite -->
+</testng-results>

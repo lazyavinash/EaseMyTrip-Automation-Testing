@@ -1,0 +1,336 @@
+#=========================================================
+
+#GENERAL PROPERTIES
+#=========================================================
+
+
+browser=chrome
+#browser=firefox
+url=https://www.easemytrip.com/
+implicit.wait=10
+#excelpath=.\\src\\test\\resources\\files\\cityData2.xlsx
+#excelpath=C:\\Users\\Rahul Kawatra\\Desktop\\Project Gladiator EaseMyTrip\\cityData2.xlsx
+#excelpath4=C:\\Users\\Rahul Kawatra\\Desktop\\cityData4.xlsx
+excelpath4=.\\src\\test\\resources\\files\\HPdetails.xlsx
+#============================================================
+
+#HOME PAGE RUNNER PROPERTIES
+#==========================================================
+
+
+homePageTitle=Book Flights, Hotels, Bus Tickets & Holidays - EaseMyTrip.com
+webCheckInLink=Web Check-In
+webCheckInTitle=Airlines Web Check-in - EaseMyTrip.com
+flightsLink=FLIGHTS
+flightsURL=https://www.easemytrip.com/flights.html
+logoXpath=//i[@class='newHeaderLogo']
+multicityCheckBoxXpath=//input[@id='mulChkFlag']
+defenceCheckBoxXpath=//input[@id='chkArmy']
+studentCheckBoxXpath=//input[@id='chkStudent']
+seniorCitizenCheckBoxXpath=//input[@id='chkSeniorCitizen']
+doctorCheckBoxXpath=//input[@id='chkDoctors']
+hotelsLink=HOTELS
+hotelsTitle=Hotel Booking Online | Budget , Luxury & Cheap Hotel - EaseMyTrip
+impInfoLink=click here
+impInfoTitle=My booking
+javascriptScrollDown="document.body.scrollHeight"
+flightStatusLink=Flight Status
+flightStatusTitle=Flight Status: Real Time Flights Tracker Offers Live Flight Status
+termsLink=Terms & Conditions
+termsTitle=Terms and conditions - EaseMyTrip.com
+airportsLink=Airports
+airportsTitle=Domestic Airports: Airports in India
+airAsiaLink=Air Asia Airlines
+airAsiaTitle=Air Asia Flight Booking , Schedule & Offers
+androidCSSTitle=Google Play Store
+androidURL=https://play.google.com/store/apps/details?id=com.easemytrip.android
+iosCSSTitle=App Store
+iosURL=https://apps.apple.com/in/app/easemytrip-flight-booking/id1053030595
+switchID=swap
+myAccountArrowXpath=//div[@class='sub_header_link3']//i[@class='down_arw']
+signInButtonClass=btn_signin
+helpLineArrowLink=//div[@class='sub_header_link']//i[@class='down_arw']
+phoneNoClass=corport-txt
+travelGuideCSSHref=a[href='https://www.easemytrip.com/covid19-help.html']
+travelGuideTitle=TravelGuide for Air passengers-EaseMyTrip.com
+
+
+#==========================================================
+
+#HOME PAGE PROPERTIES
+#==========================================================
+
+
+originID=FromSector_show
+destinationID=Editbox13_show
+originSuggestionPart1=//ul[@id='ui-id-1']/li/div/span[@class='ct'][contains(text(),'
+originSuggestionPart2=')]
+destinationSuggestionPart1=//ul[@id='ui-id-2']/li/div/span[@class='ct'][contains(text(),'
+destinationSuggestionPart2=')]
+searchButtonXpath=//div[@class='mobile-wi1 flig-show1']//input[@class='src_btn']
+dateArrowXpath=//*[@id=\"img2Nex\"]
+dateContainsPart1=//div[contains(text(),'
+dateContainsPart2=')]
+travellerDropDownCSS=a[class='dropbtn_n9']
+plusSign1=input[class='plus_box1']
+plusSign2=input[class='plus_boxChd']
+plusSign3=input[class='plus_box1Inf']
+done1Xpath=//*[@id=\"traveLer\"]
+travelClassDropDownClass=dropbtn_n10
+economy=//*[@id=\"myDropdown_n9\"]/div/label[1]/span
+premEconomy=//*[@id=\"myDropdown_n9\"]/div/label[2]/span
+business=//*[@id=\"myDropdown_n9\"]/div/label[3]/span
+done2Xpath=//*[@id=\"tripType\"]
+
+#============================================================
+addCityXpath=//*[@id=\"addAnFlt\"]/a
+excelpathMulticity=C:\Users\Rahul Kawatra\Desktop\Project Gladiator EaseMyTrip\multicity.xlsx
+
+
+#=============================================================
+
+#ONE WAY PROPERTIES
+#=============================================================
+#browser=chrome
+#url=https://easemytrip.com
+murl=https://flight.easemytrip.com/multicity/Index?SrchID=DEL-Delhi,%20India|BOM-Mumbai,%20India|13/08/2020^BOM-Mumbai,%20India|BLR-Bangalore,%20India|14/08/2020^BLR-Bangalore,%20India|CCU-Kolkata,%20India|15/08/2020^CCU-Kolkata,%20India|GOI-Goa,%20India|16/08/2020^GOI-Goa,%20India|HYD-Hyderabad,%20India|17/08/2020^HYD-Hyderabad,%20India|DEL-Delhi,%20India|18/08/2020&adt=1&chd=0&inf=0&cabin=0&airline=undefined&isOneway=true&isDomestic=false
+#implicit.wait=30
+#excelpath=
+#username=
+#password=
+#sheetName=Sheet1
+
+#moduleName_ObjectName
+flightto=Editbox13_show
+city=Bangalore
+studentxpath=//label[contains(text(),'Students')]
+modifysearchbutton=btnSrch
+prevday=//a[contains(text(),'Previous Day')]
+nextday=//a[contains(text(),'Next Day')]
+flightid=1
+flightidm=0
+faredetails=//li[contains(text(),'Fare Details')]
+baggageinformation=//li[contains(text(),'Baggage Information')]
+cancellationrules=//li[contains(text(),'Cancellation Rules')]
+closebutton=//div[@class='cl']//img
+closebuttonm=//div[contains(@class,'cl clzz')]//img
+booknowm=//div[contains(@class,'container')]//div[5]//div[2]//div[1]//div[2]//div[1]//div[2]//button[1]
+
+onestopfilter=//label[contains(text(),'1 Stop')]
+airlinefilter=//div[@id='sidebar']//div[1]//div[1]//label[1]//span[1]
+#filteredflight=//span[text()='Air India']/ancestor::div[@class='row']/div[6]/button[text()='Book Now']
+filteredflight=//div[contains(@class,'col-md-12 col-sm-12 no-padd')]//div//div[1]//div[1]//div[1]//div[6]//button[1]
+
+checkfareoptions=//a[@id='divMoreFare0']
+
+#=============================================================================
+
+
+
+#==============================================================================
+
+#HOTELS
+#==============================================================================
+
+excelpathSearchHotel=.\\src\\test\\resources\\files\\searchdetails.xlsx
+excelpathHTD=.\\src\\test\\resources\\files\\travllerdetails.xlsx
+sheetNameHTD=Sheet1
+sheetSearchName=Sheet1
+#moduleName_ObjectName
+xpathbookbtn=//div[@class='btnhcol']//a[@class='fill-btn'][contains(text(),'Book Now')]
+traveller_title=ddlGender
+title=Mr.
+firstname=txtFirstName1
+lastname=txtLastName1
+firstname2=txtFirstName2
+lastname2=txtLastName2
+emid=txtEmailId
+cont=txtCPhone
+chckbox=//label[@class='ctr_cbox lh18']//span[@class='cmark_cbox']
+pay=//div[@class='coonpayment']
+
+URL1=https://hotels.easemytrip.com/newhotel/Hotel/HotelListing?e=202088104628&city=Delhi,%20India&cin=02/09/2020&cOut=04/09/2020&Hotel=NA&Rooms=1&pax=2
+easystaybtn=Easy Stay
+luxeasystaybtn=Luxury Easy Stay
+browseallbtn=Browse All Hotels
+listpagebookbtn=//div[1]//div[2]//a[1]//div[1]//div[2]//div[5]
+
+tripadvisorfilter=//div[@id='rating-filter']//label[1]//span[3]
+amenitiesfilter=//label[contains(text(),'AC')]
+
+#Selected hotel page
+
+URL3=https://hotels.easemytrip.com/newhotel/Hotel/HotelDescription?e=202088104628&city=Delhi,%20India&cin=02/09/2020&cOut=04/09/2020&Hotel=NA&Rooms=1&pax=2&key=15~INR~New%20Delhi~09-02-2020~09-04-2020~1~2_~~~EaseMyTrip~NA~NA~NA~IN&ecid=EMTHotel-389747&hid=574569
+showallamenities=Show All Amenities
+booknowbtn=//div[@class='btnhcol']//a[@class='fill-btn'][contains(text(),'Book Now')]
+
+#==================================================================================================
+# LOGIN REGISTERATIONS
+
+sheetNameLR=Sheet1
+
+excelfile1=.\\src\\test\\resources\\files\\LDV.xlsx
+excelfile2=.\\src\\test\\resources\\files\\LDIV.xlsx
+
+#xpaths for the program
+
+xpathmyaccount=//span[@id='spnMyAcc']
+xpathsignin=//a[@class='btn_signin']
+xpathusername=//input[@id='txtusername']
+xpathpassword=//input[@id='Password1']
+xpathloginbtn=//div[@id='divLogin']//input[@name='btn_Login']
+
+xpathforgotpassword=//a[@id='forge-tex']
+xpathfemail=//input[@id='txtEmailMobF']
+xpathfloginbtn=//div[@id='hidForget']//div[@class='se-m']//input[@name='btn_Login']
+xpathnpage=//span[@id='regNumberF']
+xpathfotp=//input[@id='otptxtF']
+xpathfpassword=//input[@id='passF']
+xpathfcpassword=//input[@id='confirmpassF']
+xpathfsubmit=//div[@id='hidForget']//div[@class='se-m1']//input[@name='btn_Login']
+xpathwrongun=//*[@id=\"RegValidF\"]
+xpathfclosebtn=//div[@id='hidForget']//i[@class='cr_hp_i']
+
+
+xpathotpbox=//a[@id='otpbx']
+xpathotpnumfield=//input[@id='txtMobileOTP']
+xpathotplogin=//div[@id='divOTPLOGININT']//input[@name='btn_Login']
+xpathotpfield=//input[@id='txtMobOTP']
+xpathotpsubmit=//div[@id='divEnterOTP']//input[@name='btn_Login']
+xpathotpclose=//div[@id='divOTPLOGININT']//i[@class='cr_hp_i']
+
+
+xpathwelcomeuser=//span[@id='welcome-det-User']
+xpathlogoutbtn=//a[contains(text(),'Log Out')]
+
+
+xpathregister=//a[@class='btn_register RegInHome']
+xpathremailid=//input[@id='txtEmail']
+xpathregisterbtn=//div[@id='hid1']//div[@class='se-m']//input[@name='btn_Login']
+xpathregisternumber=//span[@id='regNumber']
+xpathrotpfield=//input[@id='otptxt']
+xpathregisterpass=//input[@id='pass']
+xpathregisterconfirmpass=//input[@id='confirmpass']
+xpathrsubmitbtn=//div[@id='hid1']//div[@class='se-m1']//input[@name='btn_Login']
+
+
+
+
+
+xpathfgotpfield=//div[@id='otpmsgF']
+xpathforwelcomeuser=//span[@id='welcome-det-User']
+xpathforloginsign=//div[@id='divLogin']//div[@class='fr_rules2'][contains(text(),'Login')]
+xpathforloginclose=//div[@id='divLogin']//i[@class='cr_hp_i']
+
+#===================================================
+
+citynames=ssg-title
+firstoption=span[class='ssg-subtitle']
+month=span[class='ui-datepicker-month']
+nextmonthbtn=span[class='ui-icon ui-icon-circle-triangle-e']
+date=ui-state-default
+guestdropdown=i[class=down_arw_htl]
+addbutton=a[class='add hoteladultclass']
+donebutton=a[class='addroom exitroom']
+
+
+
+
+#=====================================================================================
+
+
+#FLIGHT TRAVELLER PROPERTIES
+#============================================================================
+
+sheetName=Email
+sheetNameAdult=Adult
+sheetNameChild=Child
+sheetNameInfant=Infant
+sheetNameContact=Contact
+excelpathFT=.\\src\\test\\resources\\files\\DataSet.xlsx
+
+flightNo=//div[@id='divLoadFltDetails']//div[@class='fli-d-m ng-scope']//div[2]//div//div//span[2]
+flightDate=//div[@class='ng-scope fd-des']//span[2]
+c_clear=//div[@class='cancl']
+c_check=divCouponApplied
+c_text=//input[@id='txtCouponCode']
+c_apply=//div[@class='apl']
+c_message=//p[@id='easeFareDetails1_promodiv']
+c_list=//div[@class='coupn_scrl']//div[*]//label//span
+
+//Travel Insurance
+i_insure=chkInsurance
+i_notinsure=notinsure
+i_radio=rdoInsuNew
+
+//Free Cancellation
+f_yes=chkZeroInsurance
+f_no=chkNotZeroInsurance
+f_radio=rdoZeroInsuNew
+f_tab=divZeroInsTab
+
+//Email Verification
+e_textField=//div[@class='con-m']//input[@id='txtEmailId']
+e_continue=//span[@id='spnVerifyEmail']
+e_nextSection=divTravellerSHow
+
+//Contact No Verification
+co_textField=txtCPhone
+co_continue=//span[@id='spnTransaction']
+co_pay=divPaymentMode
+
+//Add Seat Button
+a_button=//div[@id='seatArea']//a[@class='adSeatbtn'][contains(text(),'+ Add Seat')]
+a_panel=mainSeatPanel
+
+//Adult Details
+t_title=titleAdult0
+t_first=txtFNAdult0
+t_last=txtLNAdult0
+
+//Child Details
+ch_title=titleChild0
+ch_first=txtFNChild0
+ch_last=txtLNChild0
+
+//Infant Details
+in_title=titleInfant0
+in_first=txtFNInfant0
+in_last=txtLNInfant0
+
+//Verify Infant DOB drop downs
+in_day=divDOBDayInfant0
+in_month=divDOBMonInfant0
+in_year=divDOBYarInfant0
+
+
+//Add Baggage
+b_add=baggageBtn
+b_disp=baggageBoxAdult0
+b_list=//body[@id='bodyMain']/form[@id='FrmEmtMdl']/div[@id='FrmTrveller']/div[@class='tr-m']/div[@class='tr-cen']/div[@id='divTrvfltDtl']/div[@class='fd-ll']/form[@class='ng-pristine ng-invalid ng-invalid-pattern ng-valid-maxlength ng-valid-required']/div[@id='divTravellerSHow']/div[@class='bor']/div[@id='divTravlerEntry']/div[@class='tr-cen-trv']/div[@class='fd-ll']/div[@id='divAdultPax']/div[@class='shd_pnl']/div[@class='ancillAdult1']/div[@id='baggageBoxAdult1']/div[@id='dbb_Adult1_DEL-BOM-8723']/div[@class='mealmenu']/label[*]/span[1]
+
+//Remove adult button
+r_adult=//div[@class='shd_pnl']//div[@class='ng-scope']//span[@class='cmark_cbox']
+r_hide=//div[@id='divTrvAdult0']
+
+//Remove Child button
+r_child=//span[@id='spnChild0']
+r_chhide=//div[@id='divTrvChild0']
+
+//Remove Infant button
+r_infant=//span[@id='spnInfant0']
+r_inhide=//div[@id='divTrvInfant0']
+
+//Add Adult button
+add_adult=//a[@class='add_adlt']
+add_error=//div[@id='errAdult']
+
+//Add Child Button
+add_child=//a[contains(text(),'+Add Child')]
+add_cherror=//div[@id='errChild']
+
+//Add Infant Button
+add_infant=//a[contains(text(),'+Add Infant')]
+add_inerror=//div[@id='errInfant']
+
+

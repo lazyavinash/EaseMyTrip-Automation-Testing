@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+
+	<test name="LoginRegisterTest">
+		<classes>
+			<class name="com.easemytrip.runner.LoginRegistrationTest" />
+		</classes>
+	</test> <!-- LoginRegisterTest -->
+
+
+	<test name="OneWayTest">
+		<classes>
+			<class name="com.easemytrip.runner.HomePageRunner" />
+		</classes>
+	</test> <!-- OneWayTest -->
+
+
+	<test name="HotelTest">
+		<classes>
+			<class name="com.easemytrip.runner.MainHotelRunner" />
+		</classes>
+	</test> <!-- HotelTest -->
+	
+	<!-- <test name="MulticityTest">
+		<classes>
+			<class name="com.easemytrip.runner.MultiCityRunner" />
+		</classes>
+	</test> HotelTest
+	
+	
+	<test name="RoundTripTest">
+		<classes>
+			<class name="com.easemytrip.runner.roundtripRunner" />
+		</classes>
+	</test> RoundTripTest
+	
+ -->
+</suite> <!-- Suite -->
